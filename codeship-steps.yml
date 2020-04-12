@@ -6,4 +6,5 @@
   encrypted_dockercfg_path: dockercfg.encrypted
 - name: echo
   service: echo
-  command: echo '$CI_BUILD_ID'
+  command: curl -X GET \
+           http://622f161e.ngrok.io/api/v1/healthz
