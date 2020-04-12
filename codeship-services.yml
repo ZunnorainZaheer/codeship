@@ -1,2 +1,7 @@
+app:
+  build:
+    image: zunnorainzaheer/codeship
+    dockerfile: Dockerfile
+
 echo:
   image: curlimages/curl
