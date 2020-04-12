@@ -1,2 +1,2 @@
 echo:
-  image: ubuntu
+  image: curlimages/curl
