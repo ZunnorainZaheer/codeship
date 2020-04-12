@@ -1,0 +1,3 @@
+- name: curl
+  service: curl
+  command: echo CI_BUILD_ID
