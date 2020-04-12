@@ -2,6 +2,7 @@
   service: app
   type: push
   image_name: zunnorainzaheer/codeship
+  image_tag: "{{.BuildID}}"
   encrypted_dockercfg_path: dockercfg.encrypted
 - name: echo
   service: echo
