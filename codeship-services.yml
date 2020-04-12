@@ -4,4 +4,4 @@ app:
     dockerfile: Dockerfile
 
 echo:
-  image: curlimages/curl
+  image: ubuntu
