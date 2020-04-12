@@ -5,4 +5,4 @@
   encrypted_dockercfg_path: dockercfg.encrypted
 - name: echo
   service: echo
-  command: echo CI_BUILD_NUMBER
+  command: echo $CI_BUILD_NUMBER
